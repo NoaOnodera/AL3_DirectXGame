@@ -36,7 +36,7 @@ void GameScene::Initialize() {
 
 	
 	//カメラ垂直方向視野角を設定
-	viewProjection_.fovAngleY = XMConvertToRadians(10.0f);
+	viewProjection_.fovAngleY = XMConvertToRadians(45.0f);
 	viewProjection_.aspectRatio = 1.0f;
 	//ニアクリップ距離を設定
 	viewProjection_.nearZ = 52.0f;
